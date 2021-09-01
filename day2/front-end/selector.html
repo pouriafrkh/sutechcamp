@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+</head>
+
+<style>
+    /* p {
+        text-align: center;
+    } */
+    .box {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    .box p {
+        color: white;
+        text-align: center;
+    }
+
+    .x1.x2 {
+        font-size: 22px;
+    }
+
+    .coral-back {
+        background-color: lightcoral;
+    }
+
+    .blue-back {
+        background-color: lightblue;
+    }
+
+    .red-back {
+        background-color: pink;
+    }
+
+    .wrapper {
+        margin: 30px;
+    }
+
+    p {
+        color: darkcyan;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="box coral-back">
+            <p>box 1</p>
+            <div>
+                <div>
+                    <p>para 2</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box blue-back">
+            <p>box 2</p>
+                <div>
+                    <p>para 2</p>
+                </div>
+        </div>
+
+        <div class="box red-back">
+            <p>box 3</p>
+                <div>
+                    <p>para 2</p>
+                </div>
+        </div>
+    </div>
+
+    <p class="x1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto numquam id error consequatur placeat ratione 
+        ullam reprehenderit, tenetur velit, itaque ducimus corrupti 
+        expedita doloribus pariatur delectus repudiandae ipsum rem.
+    </p>
+
+    <p class="x1 x2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Commodi architecto numquam id error consequatur placeat ratione 
+        ullam reprehenderit, tenetur velit, itaque ducimus corrupti 
+        expedita doloribus pariatur delectus repudiandae ipsum rem.
+    </p>
+</body>
+</html>

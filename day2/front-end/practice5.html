@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+            body,
+        * {
+            font-family: Shabnam;
+        }
+        .star {
+            color: red;
+        }
+
+        input[type = "tel"] {
+            border-radius: 5px;
+            border-color: lightgray;
+        }
+
+        input[type = "date"] {
+            border-radius: 5px;
+            border-color: lightgray;
+
+        }
+
+        input[type = "email"] {
+            border-radius: 5px;
+            border-color: lightgray;
+
+        }
+
+        input[type = "password"] {
+            border-radius: 5px;
+            border-color: lightgray;
+
+        }
+/* 
+        input[type = "submit"] {
+            border-radius: 5px;
+            border-color: lightgray;
+
+        } */
+
+</style>
+<body dir="rtl">
+    <form>
+        <label for="fnln">نام و نام خانوادگی</label>
+        <label class="star">*</label><br>
+        <input type="text" name="name" id="fnln" required placeholder="مثال: علیرضا احمدی">
+        <br><br>
+        <label for="num">شماره تماس</label>
+        <label class="star">*</label><br>
+        <input type="tel" name="num" id="num" required placeholder="مثال: 09305005050">
+        <br><br>
+        <label for="bd">تاریخ تولد</label>
+        <label class="star">*</label><br>
+        <input type="date" name="bd" id="bd" required>
+        <br><br>
+        <label for="email">ایمیل</label>
+        <label class="star">*</label><br>
+        <input type="email" name="email" id="email" required placeholder="مثال: madi@gmail.com">
+        <br><br>
+        <label for="pass">رمز عبور</label>
+        <label class="star">*</label><br>
+        <input type="password" name="pass" id="pass" required placeholder="یک رمز عبور وارد کنید">
+        <br><br>
+        <button type="submit">ثبت نام <br></button>
+
+    </form>
+</body>
+</html>

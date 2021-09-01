@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+
+</head>
+
+<body>
+    <form method="POST" autocomplete="off">
+        <lable for="fname">first name:</lable><br>
+        <input type="text" name="fname" id="fname" placeholder="type your name" autofocus>
+        <br>
+
+        <lable for="lname">last name:</lable><br>
+        <input type="text" name="lname" id="lname" placeholder="type your last name">
+        <br>
+        <input type="radio" name="gender" id="male" value="male">
+         <label for="male">male</label>
+         <br>
+         <input type="radio" name="gender" id="female" value="female">
+         <label for="female">female</label>
+         <br>
+
+         <lable for="ans">answer:</lable><br>
+         <!-- <input type="text" name="ans" id="ans"> -->
+         <input type="radio" name="ans" id="a">
+          <label for="a">a</label>
+          <br>
+          <input type="radio" name="ans" id="b">
+          <label for="b">b</label>
+          <br>
+          <input type="radio" name="ans" id="c">
+          <label for="c">c</label>
+          <br>
+          <input type="checkbox" name="accept_rules" id="rules" value="1">
+          <label for="rules">I accept the rules</label>
+          <br>
+          <input type="checkbox" name="accept_rules2" id="rules2" value="2">
+          <label for="rules2">I accept the rules2</label>
+
+          <br>
+          <!-- drop down list(select) -->
+          <label for="city">city:</label>
+          <select name="city" id="city">
+              <option value="0" selected="true" disabled="disabled">pls choose a city</option>
+              <option value="s">shiraz</option>
+              <option value="e">esfahan</option>
+              <option value="t">tehran</option>
+              <option value="m">mashhad</option>
+              <option value="k">kerman</option>
+          </select>
+          <br>
+
+          <label for="car">what is your car:</label>
+          <select name="car" id="car" multiple>
+              <optgroup label="German cars">
+                  <option>Auodi</option>
+                  <option>Wolks vagon</option>
+              </optgroup>
+              <optgroup label="Iranian cars">
+                  <option>Pride</option>
+                  <option>Samand</option>
+              </optgroup>
+          </select>
+          <br>
+          <label for="browser_list">what is your browser?</label>
+          <input list="browsers" name="browser" id="browser_list">
+          <datalist id="browsers">
+              <option value="firefox">
+              <option value="chrome">
+              <option value="opera">
+          </datalist>
+          <br>
+
+          <label>Address</label>
+          <br>
+          <textarea name="address" id="address" rows="5" cols="30"></textarea>
+          <br>
+
+          <label>street No.:</label>
+          <input type="number" max="10" min="5" name="streetno" id="streetno">
+
+          <br>
+
+          <input type="submit" value="sabt">
+          <input type="reset">
+          <input type="button" value="I do nothing">
+          <br>
+
+          <button type="submit">sabt <br> <img src="https://picsum.photos/100"></button>
+          <button type="reset">Reset</button>
+          <button type="button">I do nothing</button>
+    </form>
+    <br>
+    <br>
+    <!-- more inputs -->
+
+    <form enctype="multipart/form-data">
+        <lable for="fname">first name:</lable><br>
+        <input type="text" name="fname" id="fname" placeholder="type your name" autofocus>
+        <br>
+        <input type="hidden" name="planno" value="1">
+        <br>
+        <label for="email">email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="enter your email">
+        <br>
+        <br>
+        <label for="pass">password</label>
+        <br>
+        <input type="password" name="pass" id="pass">
+        <br>
+        <input type="search" placeholder="search"> <br>
+        <input type="file" name="cartmelli" > <br>
+        <button type="submit">sabt <br></button>
+
+    </form>
+
+</body>
+
+</html>
