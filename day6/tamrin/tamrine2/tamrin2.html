@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .body , * {
+        font-family: shabnam;
+        margin: 0;
+    }
+
+    .main {
+        display: grid ;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 100px;
+        grid-auto-rows: minmax(600px,auto);
+
+    }
+
+    .box1 {
+        position: relative;
+        display: flex;
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        margin-right: 50px;
+        margin-top: 30px;
+        background-image: url(../post.jpg);
+        background-size: 172%;
+    }
+
+    .box1>form {
+        text-align: center;
+        padding: 180px;
+        margin: -20px;
+    }
+
+    .box1>form>p {
+        color: yellow;
+    }
+
+    .box1>form>img {
+        border-radius: 1000px;
+        position: absolute;
+        margin-right: -40px;
+        margin-top: 150px;
+    }
+
+    #text1 {
+        width: 80px;
+        border-radius: 15%;
+        border-style: none;
+    }
+
+    .whatsapp {
+        position: absolute;
+        width: 100vw;
+        height: 50px;
+        padding: 15px;
+        margin-top: 550px;
+        background-color: #50CD5E;
+    }
+
+    .whatsapp>button {
+        
+    }
+
+    .aboutus {
+        margin-right: 50px;
+    }
+
+
+    .links>a {
+        text-decoration: none;
+        color: lightslategray;
+    }
+
+    .footer {
+        font-size: small;
+        font-weight: lighter;
+        margin-bottom: 50px;
+
+    }
+
+</style>
+<body dir="rtl">
+    <div class="main">
+        <div class="box1">
+            <form>
+                <input type="text" id="text1" placeholder="نام دسته‌بندی">
+                <p>متن آزمایشی</p>
+                <img src="../img/download.jpg"
+                width="60px" height="60px">
+            </form>
+        </div>
+
+        <div class="box1">
+            <form>
+                <input type="text" id="text1" placeholder="نام دسته‌بندی">
+                <p>متن آزمایشی</p>
+                <img src="../img/download.jpg"
+                width="60px" height="60px">
+            </form>
+        </div>
+
+        <div class="box1">
+            <form>
+                <input type="text" id="text1" placeholder="نام دسته‌بندی">
+                <p>متن آزمایشی</p>
+                <img src="../img/download.jpg"
+                width="60px" height="60px">
+            </form>
+        </div>
+
+        <div class="whatsapp">
+            <p>پاسخگوی سوالات شما در واتساپ هستیم.</p>
+            <button type="button">چت در واتساپ</button>
+        </div>
+
+        <div class="aboutus">
+            <h1>درباره ما</h1>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صن
+                عت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                 برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </p>
+        </div>
+
+        <div class="links">
+            <h1>پیوندها</h1>
+            <a href="https://www.google.com">google</a> <br><br>
+            <a href="https://www.yahoo.com">yahoo</a>  <br><br>
+            <a href="https://www.yandex.com">yandex</a>
+        </div>
+
+        <div class="signs">
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <hr>
+        <p>تمام حقوق برای وبسایت سوتک کمپ محفوظ میباشد.</p>
+    </div>
+</body>
+</html>

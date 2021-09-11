@@ -1,0 +1,18 @@
+Normal text and liks color:
+#4A4A4A
+
+Search background:
+rgb(248 249 250)
+
+Search placeholder color:
+rgb(187, 187, 187)
+
+Profile picture overlay:
+#A8A8A8
+- with 30% opacity
+
+VIP Button background:
+#FFD96E
+
+VIP Button text color:
+#533200
